@@ -1,0 +1,102 @@
+.textoAndroid{
+    margin-top: 30%;
+    margin-left: 70px;
+    @media (max-width: 360px) {
+        margin-left: 0px !important;
+        margin-top: 100px !important;
+    }
+}
+.subtitulo{
+    font-size: 72px;
+    margin-left: 65px;
+    line-height: 1 !important; 
+    @media (max-width: 360px) {
+        // width: 335px !important; /* Tamaño para pantallas más pequeñas */
+        // height: 204px !important; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+        font-size: 45px ;
+        margin-top: 25px !important;
+    }
+}
+.textoAndroid2{
+    margin-top: 70px !important;
+    font-size: 18px;
+    margin-left: 100px !important;
+    @media (max-width: 360px) {
+        font-size: 17px !important;
+        margin-left: 0px !important;
+        margin-top: 1px !important;
+    }
+}
+.color-colum{
+    background-color: #d7effe;
+}
+.img{
+    margin-top: 15px;
+    width:600px !important ;
+    height: 630px !important ;
+    border-top-right-radius: 1px;
+    border-radius: 2rem;
+    @media (max-width: 700px) {
+        width: 80px; /* Tamaño para pantallas más pequeñas */
+        height: 48px; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+    }
+    @media (max-width: 360px) {
+        width: 320px !important; /* Tamaño para pantallas más pequeñas */
+        height: 370px !important; /* Tamaño para pantallas más pequeñas */
+        margin-left: 20px !important;
+        
+        
+        // .image-container {
+        //     position: relative; /* Establece la posición relativa para los elementos hijos */
+        // }
+    
+        // .imagen2 {
+        //     display: none; /* Oculta la segunda imagen por defecto */
+        // }
+    
+        // .imagen1 {
+        //     width: 30px !important;
+        //     height: 20px !important;
+        //     margin-left: 0px !important;
+        // }
+    
+        // /* Muestra la segunda imagen cuando el ancho de la pantalla es igual o menor a 360px */
+        // .show-image2 {
+        //     display: block;
+        // }
+    }
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+@media (max-width: 360px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .special {
+        order: -1; /* Mueve esta columna hacia la parte superior */
+    }
+    
+}
+
+// .contenedor {
+//     // width: 60%;
+//     // height: 400px;
+//     overflow: hidden;
+//     // background-color: #d7effe; /* Color de fondo inicial */
+// }
+
+// .columna {
+//     // width: 70%;
+//     // height: 300px;
+//     background-color: #ffffff; /* Color de fondo de la columna */
+//     transform: translateY(10%); /* Inicialmente, la columna está fuera de la vista */
+//     transition: transform 0.5s ease; /* Transición suave en 0.5 segundos */
+// }
+
+  

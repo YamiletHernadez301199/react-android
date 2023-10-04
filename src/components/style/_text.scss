@@ -1,0 +1,362 @@
+.text-android{
+    font-size: 68px;
+    line-height: 1;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 70px !important;
+    margin-top: 120px !important;
+    @media (max-width: 360px) {
+        .word-split {
+            white-space: nowrap; /* Evita el salto de línea automático */
+            display: block;
+        }
+        font-size: 48px;
+        line-height: 1;
+        margin-left: 0px !important;
+        padding: 0px;
+        margin-top: 60px !important;
+    }
+  
+    
+}
+.text-android2{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 70px !important;
+    margin-top: 120px !important;
+    @media (max-width: 360px) {
+        margin-left: 0px !important;
+        padding: 0px !important;
+        font-size: 18px;
+    }
+    
+}
+.text-android3{
+    font-size: 60px;
+    line-height: 1;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 70px !important;
+    margin-top: 12px !important;
+    @media (max-width: 360px) {
+        .word-split {
+            white-space: nowrap; /* Evita el salto de línea automático */
+            display: block;
+        }
+        font-size: 40px;
+        line-height: 1;
+        margin-left: 0px !important;
+        padding: 0px;
+        margin-top: 0px !important;
+    }
+  
+    
+}
+.texto{
+    margin-left: 70px !important;
+    @media (max-width: 360px) {
+        margin-left: 0px !important;
+        padding: 0px;
+        margin-top: 0px !important;
+    }
+}
+.button-stayle{
+    margin-left: 70px !important;
+    background: #073042;
+    margin-top: 25px !important;
+    @media (max-width: 360px) {
+        // width: 80px; /* Tamaño para pantallas más pequeñas */
+        // height: 48px; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+        padding: 0px !important;
+        margin-top: 20%;
+    }
+} 
+.button-stayle2{
+    @media (max-width: 360px) {
+        // width: 80px; /* Tamaño para pantallas más pequeñas */
+        // height: 48px; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+        padding: 0px !important;
+        margin-top: 10px !important;
+    }
+}
+.text{
+    color: white;
+    @media (max-width: 360px) {
+        font-size: 18px; /* Tamaño de fuente más pequeño para dispositivos más pequeños */
+    }
+}
+.cap{
+    width: 100% !important;
+    height: 70% !important;
+    margin-top: 200px !important;
+    @media (max-width: 360px) {
+        width: 340px !important;
+        height: 260px !important;
+       margin-top: 10px !important;
+    }
+}
+.img4{
+    width: 100%!important;
+    height: 52% !important;
+    border: 5px; /* Ancho del borde y color del borde */
+    border-radius: 5%; 
+    margin-left: 75px !important;
+    @media (max-width: 700px) {
+        width: 80px; /* Tamaño para pantallas más pequeñas */
+        height: 48px; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+    }
+    @media (max-width: 360px) {
+        width: 335px !important; /* Tamaño para pantallas más pequeñas */
+        height: 204px !important; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+    }
+    // margin-left: 70px !important;
+}
+.img5{
+    width: 75% !important;
+    height: 52% !important;
+    border: 5px; /* Ancho del borde y color del borde */
+    border-radius: 5%; 
+    margin-left: 75px !important;
+    @media (max-width: 700px) {
+        width: 80px; /* Tamaño para pantallas más pequeñas */
+        height: 48px; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+        margin-top: 50% !important;
+    }
+    @media (max-width: 360px) {
+        width: 335px !important; /* Tamaño para pantallas más pequeñas */
+        height: 250px !important; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+        margin-top: 30px !important;
+    }
+}
+.img7{
+    width: 90% !important;
+    height:40% !important; 
+    margin-left: 70px !important;
+    margin-top: 30% !important;
+    border: 5px; /* Ancho del borde y color del borde */
+    border-radius: 5%;
+    @media (max-width: 700px) {
+        width: 80px; /* Tamaño para pantallas más pequeñas */
+        height: 48px; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+    }
+    @media (max-width: 360px) {
+        width: 300px !important; /* Tamaño para pantallas más pequeñas */
+        height: 200px !important; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+    }
+}
+.img8{
+    width: 90% !important;
+    height:40% !important; 
+    margin-left: 10px !important;
+    margin-top: 30% !important;
+    border: 5px; /* Ancho del borde y color del borde */
+    border-radius: 5%;
+    @media (max-width: 700px) {
+        width: 80px; /* Tamaño para pantallas más pequeñas */
+        height: 48px; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+        padding:0%;
+    }
+    @media (max-width: 360px) {
+        width: 300px !important; /* Tamaño para pantallas más pequeñas */
+        height: 200px !important; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+        margin-top: 30px !important;
+    }
+    
+}
+.img9{
+    width: 80% !important;
+    height:45% !important; 
+    margin-left: 70px !important;
+    margin-top: 30% !important;
+    border: 5px; /* Ancho del borde y color del borde */
+    border-radius: 5%;
+    @media (max-width: 700px) {
+        width: 80px; /* Tamaño para pantallas más pequeñas */
+        height: 48px; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+        padding:0%;
+    }
+    @media (max-width: 360px) {
+        width: 300px !important; /* Tamaño para pantallas más pequeñas */
+        height: 200px !important; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+        margin-top: 30px !important;
+    }
+}
+.img10{
+    width: 100% !important;
+    height:45% !important; 
+    margin-left: 70px !important;
+    margin-top: 30% !important;
+    border: 5px; /* Ancho del borde y color del borde */
+    border-radius: 5%;
+    @media (max-width: 700px) {
+        width: 80px; /* Tamaño para pantallas más pequeñas */
+        height: 48px; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+    }
+    @media (max-width: 360px) {
+        width: 300px !important; /* Tamaño para pantallas más pequeñas */
+        height: 200px !important; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+        margin-top: 30px !important;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en columnas */
+}
+// .word {
+//     white-space: normal; /* Permite que las palabras fluyan a múltiples líneas */
+// }
+/* Media query para dispositivos más pequeños */
+// @media (max-width: 700px) {
+//     .no-wrap {
+//         white-space: nowrap; /* Evita que "Te presentamos" se divida en varias líneas */
+//     }
+// }
+.fila {
+    display: flex;
+    justify-content: space-between;
+}
+/* Media query para dispositivos más pequeños */
+// @media (max-width: 936px) {
+//     .fila {
+//         flex-direction: column;
+//         margin-top: 0% !important;
+//     }
+
+// }
+.size{
+    font-size: 80px;
+    @media (max-width: 360px) {
+        .word-split {
+            white-space: nowrap; /* Evita el salto de línea automático */
+            display: block;
+        }
+        font-size: 48px;
+        line-height: 1;
+        margin-left: 0px !important;
+        padding: 0px;
+        margin-top: 20px !important;
+    }
+}
+.size2{
+    font-size: 40px;
+}
+.text-top{
+    margin-top: 40%;
+}
+.text-top2{
+    margin-top: 33%;
+}
+.tex{
+    font-weight: bold;
+    color: #000000;
+}
+
+.tex1{
+    font-weight: bold;
+    color: #685d5d;
+}
+.text-small{
+    font-size: 12px;
+}
+
+.texto2{
+    margin-left: 305px !important;
+    @media (max-width: 700px) {
+        width: 80px; /* Tamaño para pantallas más pequeñas */
+        height: 48px; /* Tamaño para pantallas más pequeñas */
+        margin-left: 70px !important;
+
+    }
+}
+.texto3{
+    font-size: 18px;
+    margin-left: 50px !important;
+    @media (max-width: 700px) {
+        width: 80px; /* Tamaño para pantallas más pequeñas */
+        height: 48px; /* Tamaño para pantallas más pequeñas */
+        margin-left: 70px !important;
+    }
+    @media (max-width: 360px) {
+        width: 80px; /* Tamaño para pantallas más pequeñas */
+        height: 48px; /* Tamaño para pantallas más pequeñas */
+        // margin-left: 70px !important;
+        margin-left: 0px !important;
+        padding: 0px;
+        margin-top: 10px !important;
+    }
+    
+}
+
+.image-scroll-container {
+    overflow: hidden;
+    width: 100%; /* Ajusta el ancho del contenedor según tus necesidades */
+    max-width: 100%; /* Añade un ancho máximo para dispositivos pequeños */
+    margin-right: 0 !important; /* Elimina el margen derecho */
+    overflow: hidden;
+    /* Otros estilos */
+   
+  }
+  
+  .image-scroll {
+    display: inline-block;
+    white-space: nowrap;
+    transform: translateX(var(--scroll-percent, 0));
+    transition: transform 0.3s ease; /* Ajusta la duración de la transición según tus necesidades */
+  }
+  
+  img {
+    max-height: 400% !important;
+    max-width: 180% !important; /* Ajusta el ancho máximo de la imagen */
+    height: auto;
+  }
+  @media (max-width: 360px) {
+    .image-scroll {
+      display: inline-block;
+      white-space: nowrap;
+      transform: translateX(var(--scroll-percent, 0));
+      transition: transform 0.3s ease; /* Ajusta la duración de la transición según tus necesidades */
+      margin-top: 120px; /* Agrega un margen superior de 20px (o el valor que desees) */
+    }
+  }
+  
+//   .image-scroll-container.scrolling .image-scroll {
+//     animation: none; /* Desactiva la animación cuando el mouse está en movimiento */
+// }
+
+.text-nav-top{
+    margin-top: 5%;
+    font-size: 15px;
+}
+.text-nav-top2{
+    margin-top: 12%;
+    font-size: 15px;
+}
+
+
+.carousel-card {
+    margin-right: 10px; /* Ajusta el margen derecho según tus preferencias */
+  }
+  
+  /* Para la última tarjeta, puedes quitar el margen derecho para evitar un espacio adicional */
+  .carousel-inner .carousel-item:last-child .carousel-card {
+    margin-right: 0;
+}
+
+
+  
+
+  

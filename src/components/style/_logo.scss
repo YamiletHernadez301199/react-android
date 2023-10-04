@@ -1,0 +1,16 @@
+.logo{
+    margin-left: 70px !important;
+    
+    @media (max-width: 360px) {
+        width: 80px; /* Tamaño para pantallas más pequeñas */
+        height: 48px; /* Tamaño para pantallas más pequeñas */
+        margin-left: 0px !important;
+        padding: 0px;
+      }
+    
+}
+.end{
+    justify-content: end;
+    margin-right: 70px !important;
+    margin-left: 0%;
+}

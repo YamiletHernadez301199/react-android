@@ -3,7 +3,7 @@ import '../components/style/_android.scss'
 import '../components/style/_logo.scss'
 import { useEffect, useState } from "react";
 export const Android = () => {
-    
+
     const [scrollProgress, setScrollProgress] = useState(0);
 
     const handleScroll = () => {
@@ -30,50 +30,67 @@ export const Android = () => {
 
     return (
         <>
-                <MainLayout>
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col">
-                                <div className="row">
-                                    <div className="col-md-6 color-colum">
-                                        <h5 className="textoAndroid">
-                                            Qué es Android
-                                        </h5>
-                                        <h1 className={`fw-bolder subtitulo ${applyCustomStyles ? 'custom-styles' : ''}`}>
-                                            La plataforma que lleva a los dispositivos móviles más allá.
-                                        </h1>
-                                    </div>
-
-                                    <div className={`col special ${applyCustomStyles ? 'custom-styles' : ''}`} style={{ background:gradientColor , gridRow: 2  }}>
-                                        <img src={`../assets/img/img11.png`} className="img" alt="" />
-                                    </div>
+            <MainLayout>
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col">
+                            <div className="row">
+                                <div className="col-md-6 color-colum">
+                                    <h5 className="textoAndroid">
+                                        Qué es Android
+                                    </h5>
+                                    <h1 className={`fw-bolder subtitulo ${applyCustomStyles ? 'custom-styles' : ''}`}>
+                                        La plataforma que lleva a los dispositivos móviles más allá.
+                                    </h1>
                                 </div>
 
+                                <div className={`col special ${applyCustomStyles ? 'custom-styles' : ''}`} style={{ background: gradientColor, gridRow: 2 }}>
+                                    <img src={`../assets/img/img11.png`} className="img" alt="" />
+                                </div>
                             </div>
 
                         </div>
-                        <div className="row">
-                            <div className="col">
-                                <div className="row">
-                                    <div className="col-md-6 mt-5">
-                                        <p className="fw-bolder subtitulo">
-                                            La mejor tecnología para tu teléfono, tablet, reloj, TV y automóvil.
-                                        </p>
-                                    </div>
-                                    <div className="col-md-5 mt-5">
-                                        <p className="textoAndroid2 lh-lg">
+
+                    </div>
+                    <div className="row">
+                        <div className="col">
+                            <div className="row">
+                                <div className="col-md-6 mt-5">
+                                    <p className="fw-bolder subtitulo">
+                                        La mejor tecnología para tu teléfono, tablet, reloj, TV y automóvil.
+                                    </p>
+                                </div>
+                                <div className="col-md-5 mt-5">
+                                    <p className="textoAndroid2 lh-lg">
                                         A veces un dispositivo no solo funciona bien, sino que de verdad facilita tu vida:
                                         eso es Android. Es la razón por la que tu GPS evita el tráfico, el reloj puede enviar mensajes
-                                        de texto y el Asistente sabe responder preguntas. Es el sistema operativo que utilizan 2,500 millones 
-                                        de dispositivos activos. Desde teléfonos con 5G hasta las más increíbles tablets, 
+                                        de texto y el Asistente sabe responder preguntas. Es el sistema operativo que utilizan 2,500 millones
+                                        de dispositivos activos. Desde teléfonos con 5G hasta las más increíbles tablets,
                                         la tecnología de Android está presente en todos ellos.
-                                        </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col">
+                            <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+                                <div className="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src={`../assets/img/img11.png`} class="d-block w-80" alt="..."/>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="..."/>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="..."/>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </MainLayout>
+                </div>
+            </MainLayout>
         </>
     )
 }

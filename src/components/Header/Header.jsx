@@ -30,10 +30,10 @@ export const Header = () => {
                                         <Link className="nav-link active ms-4" aria-current="page" to={"/android"}>Qué es android</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link active ms-4" to="#">android 13</Link>
+                                        <Link className="nav-link active ms-4" to={"/android13"}>android 13</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link active ms-4" to="#">Teléfonos y tablets</Link>
+                                        <Link className="nav-link active ms-4" to={"/telefono"}>Teléfonos y tablets</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link className="nav-link active ms-4" to="#" tabIndex="-1" aria-disabled="true">Empresa</Link>
